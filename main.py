@@ -15,7 +15,7 @@ class Mixer:
     print('Mixer dimatikan ', self.nama_merk)
 
   def menambahKecepatan(self):
-    self.kecepatan_sekarang = self.kecepatan_sekarang + 2
+    self.kecepatan_sekarang = self.kecepatan_sekarang + 3
     print('kecepatan_sekarang ', self.kecepatan_sekarang)
 
 class Mixer2(Mixer):
